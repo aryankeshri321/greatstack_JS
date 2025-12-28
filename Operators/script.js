@@ -139,3 +139,52 @@
 // const b = 10;
 // console.log(a == b); // true
 // console.log(a === b); // false
+
+
+// Logical Operator:-
+
+// Logical operators perform logical operations like:
+
+// AND (&&), OR (||), NOT (!). Logical AND (&&):
+
+// Evaluates operands and return true only if all are true.
+
+// true && true; // true
+// true && false; // false
+// false && true; // false
+// false && false; // false
+
+// let x = 5;
+// let y = 10;
+
+// console.log(x > 0 && y > 0); // true
+// console.log(x > 0 && y < 0); // false
+// console.log(x < 0 && y > 0); // false
+// console.log(x < 0 && y < 0); // false
+
+// Logical OR (||):-
+
+// Returns true even if one of the multiple operands is true
+
+// true && true; // true
+// true && false; // true
+// false && true; // true
+// false && false; // false
+
+// let a = 5;
+// let b = 10;
+
+// console.log(a > 0 || b > 0); // true
+// console.log(a > 0 || b < 0); // true
+// console.log(a < 0 || b > 0); // true
+// console.log(a < 0 || b < 0); // false
+
+// Logical NOT (!):-
+
+// Converts operator to boolean and returns flipped value
+
+// let Yes = true;
+// let No = false;
+
+// console.log(!Yes); // false
+// console.log(!No); // true
