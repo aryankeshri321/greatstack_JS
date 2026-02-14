@@ -174,3 +174,65 @@
 
 // console.log(person_1);
 // console.log(person_2);
+
+// function Person( fist,secound,third){
+//     this.firstName = fist,
+//     this.lastName = secound,
+//     this.age = third;
+// }
+
+// const person_1 = new Person("aryan" ,"kumar" ,20);
+// const person_2 = new Person("raj","Singh",21);
+
+// person_1.Sex = "Male";
+// console.log(person_1);
+
+// person_2.Greet = function(){
+//     console.log("Hello Aryan..!");
+// }
+// person_2.Greet();
+
+// function Person( fist,secound,third){
+//     this.firstName = fist,
+//     this.lastName = secound,
+//     this.age = third,
+//     this.GetFullName = function(){
+//         return `${this.firstName} ${this.lastName} ${this.age}`;
+//     }
+// }
+// const person_1 = new Person("aryan" ,"kumar" ,20);
+// const person_2 = new Person("raj","Singh",21);
+
+// console.log(person_2.GetFullName());
+
+// const person = {
+//     name : "ARYAN"
+// };
+// console.log(person);
+
+// function Person(fistName,lastName){
+//     this.fistName = fistName,
+//     this.lastName = lastName
+// }
+
+// Person.prototype.gender = "Male";
+
+// const p1 = new Person("A","B");
+// const p2 = new Person("C","D");
+
+// console.log(p1);
+
+// function Person(fistName,lastName){
+//     this.fistName = fistName,
+//     this.lastName = lastName
+// }
+
+// Person.prototype.getFullName = function(){
+//     return `${this.fistName} ${this.lastName}`
+// };
+
+// const p1 = new Person("A","B");
+// const p2 = new Person("C","D");
+
+// console.log(p2.getFullName());
+
